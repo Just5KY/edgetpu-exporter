@@ -1,7 +1,8 @@
 # EdgeTPU Prometheus Exporter
 
-[![Build Status](https://travis-ci.com/adaptant-labs/edgetpu-exporter.svg?branch=master)](https://travis-ci.com/adaptant-labs/edgetpu-exporter#)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=adaptant-labs_edgetpu-exporter&metric=alert_status)](https://sonarcloud.io/dashboard?id=adaptant-labs_edgetpu-exporter)
+[![Build Status](https://github.com/Just5KY/edgetpu-exporter/actions/workflows/docker.yml/badge.svg)](https://github.com/Just5KY/edgetpu-exporter/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/justsky/edgetpu-exporter)](https://hub.docker.com/r/justsky/edgetpu-exporter)
+[![Docker Size](https://img.shields.io/docker/image-size/justsky/edgetpu-exporter)](https://hub.docker.com/r/justsky/edgetpu-exporter)
 
 This is a Prometheus Exporter for EdgeTPU metrics.
 
