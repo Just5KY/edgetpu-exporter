@@ -38,7 +38,7 @@ jobs:
         uses: docker/metadata-action@v4.4.0
         with:
           images: |
-            justsky/edgetpu-exporter
+            ${{ secrets.DOCKERHUB_USERNAME }}/edgetpu-exporter
       
       - name: Build and push Docker images
         uses: docker/build-push-action@v4
